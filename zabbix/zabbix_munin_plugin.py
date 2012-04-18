@@ -71,4 +71,4 @@ for i,line in enumerate(valuelist):
 createdgraphids = zapi.graph.create([{'gitems': (gitems) ,'name': (graph_title),'width':'900','height':'200','yaxismin':'0.0000','yaxismax':'3.0000','templateid':'0','show_work_period':'1','show_triggers':'1','graphtype':'0','show_legend':'1','show_3d':'0','percent_left':'0.0000','percent_right':'0.0000','ymin_type':'0','ymax_type':'0','ymin_itemid':'0','ymax_itemid':'0'}])["graphids"][0]
 
 #
-print 'Import Finish.'
+print "Import Finish."
