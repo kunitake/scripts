@@ -15,7 +15,7 @@ else:
 try:
     sys.argv[2]
 except:
-    target_template_name = "Template_Munin_Plugins"
+    target_template_name = "Template_Linux"
 else:
     target_template_name = sys.argv[2]
 
