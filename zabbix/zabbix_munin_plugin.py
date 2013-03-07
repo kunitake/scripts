@@ -24,9 +24,9 @@ zabbix_server = "http://localhost/zabbix"
 target_host_name="Zabbix server"
 
 # Munin Plugin 
-munin_plugin_dir = "/usr/share/munin/plugins/"
-munin_config_command = munin_plugin_dir + munin_plugin_name + " config"
-munin_value_command  = munin_plugin_dir + munin_plugin_name
+munin_run_command = "/usr/sbin/munin-run"
+munin_config_command = munin_run_command + " " + munin_plugin_name + " config"
+munin_value_command  = munin_run_command + " " + munin_plugin_name
 
 # Imported Item Name
 # UserParameter=munin[*] ex)UserParameter=munin[memory,active]
